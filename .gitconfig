@@ -1,0 +1,14 @@
+[user]
+	name = Kelvin Johnson
+	email = kelvin.b.johnson@gmail.com
+[core]
+	editor = code --wait
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[alias]
+	unstage = restore --staged .
+	gs = status
+[init]
+	defaultBranch = main
